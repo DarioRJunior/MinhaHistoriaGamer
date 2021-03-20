@@ -1,0 +1,151 @@
+
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: arial, georgia, roboto, cursive;
+    color: white;
+    background-color: #89b6e7;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+h3 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.destaque {
+    color: black;
+    font-style: italic;
+    padding: 5px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+
+.texto-site {
+    width: 960px;
+    min-height: 300px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px;
+}
+
+img {
+    max-width: 500px;
+    border: 5px solid #89b6e7;
+}
+
+.centraliza {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+#listadif {
+    list-style-type: circle;
+    line-height: 150%;
+
+}
+
+#voltar-topo {
+    width: 80px;
+    border: none;
+    position: fixed;
+    left: 30px;
+    bottom: 300px;
+}
+
+footer{
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #89b6e7;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 10px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a {
+    text-decoration: none;
+    color: #fff;
+}
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+.socials a:hover{
+    color: aqua;
+}
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+.meus-videogames{
+    list-style-type: disc;
+    line-height: 150%;
+}
+.lado-a-lado {
+    display: flex;
+    justify-content: center;
+}
